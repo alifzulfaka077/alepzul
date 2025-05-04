@@ -69,6 +69,10 @@ nav a.active{
 
 @media(max-width:995px){
 
+  .logo{
+    position: absolute;
+  }
+
   nav{
     position:absolute;
     display: none;
@@ -256,6 +260,10 @@ color:black;
   .home{
     flex-direction:column;
     margin:5rem 4rem;
+  }
+
+  .logo{
+    position: absolute;
   }
 
   .home .home-content h3{
